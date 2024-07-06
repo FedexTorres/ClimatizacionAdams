@@ -1,0 +1,6 @@
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionBE\bin\Debug\ClimatizacionBE.dll
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionBE\bin\Debug\ClimatizacionBE.pdb
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionBE\obj\Debug\ClimatizacionBE.csproj.AssemblyReference.cache
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionBE\obj\Debug\ClimatizacionBE.csproj.CoreCompileInputs.cache
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionBE\obj\Debug\ClimatizacionBE.dll
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionBE\obj\Debug\ClimatizacionBE.pdb

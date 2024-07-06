@@ -1,0 +1,11 @@
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\bin\Debug\ClimatizacionAdams.dll
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\bin\Debug\ClimatizacionAdams.pdb
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\bin\Debug\ClimatizacionBE.dll
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\bin\Debug\ClimatizacionDAL.dll
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\bin\Debug\ClimatizacionBE.pdb
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\bin\Debug\ClimatizacionDAL.pdb
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\obj\Debug\ClimatizacionBLL.csproj.AssemblyReference.cache
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\obj\Debug\ClimatizacionBLL.csproj.CoreCompileInputs.cache
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\obj\Debug\ClimatizacionBLL.csproj.CopyComplete
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\obj\Debug\ClimatizacionAdams.dll
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionAdams\obj\Debug\ClimatizacionAdams.pdb
