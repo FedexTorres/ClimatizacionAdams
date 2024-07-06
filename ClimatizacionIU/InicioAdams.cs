@@ -91,7 +91,6 @@ namespace ClimatizacionIU
         {
             SidePanel.Height = bPaquete.Height;
             SidePanel.Top = bPaquete.Top;
-            SidePanel.BringToFront();
             ActivateButton(sender);
             openChildFormInPanel(new FormPaquete());
         }
@@ -100,7 +99,6 @@ namespace ClimatizacionIU
         {
             SidePanel.Height = bClie.Height;
             SidePanel.Top = bClie.Top;
-            SidePanel.BringToFront();
             ActivateButton(sender);
             openChildFormInPanel(new FormCliente());
         }
@@ -109,7 +107,6 @@ namespace ClimatizacionIU
         {
             SidePanel.Height = bPresupuestos.Height;
             SidePanel.Top = bPresupuestos.Top;
-            SidePanel.BringToFront();
             ActivateButton(sender);
             openChildFormInPanel(new FormDocumento());
         }
@@ -124,6 +121,7 @@ namespace ClimatizacionIU
         {
             if (senderBtn != null)
             {
+                SidePanel.BringToFront();
                 DisableButton();
                 currentBtn = (IconButton)senderBtn;
                 currentBtn.BackColor = System.Drawing.SystemColors.ControlDark;
