@@ -24,3 +24,4 @@ C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionIU\obj\Debug\Climati
 C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionIU\obj\Debug\ClimatizacionIU.FormDocumento.resources
 C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionIU\obj\Debug\ClimatizacionIU.FormPaquete.resources
 C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionIU\obj\Debug\ClimatizacionIU.AgregarDocumento.resources
+C:\Users\megaf\source\repos\ClimatizacionAdams\ClimatizacionIU\obj\Debug\ClimatizacionIU.ModificarRuta.resources

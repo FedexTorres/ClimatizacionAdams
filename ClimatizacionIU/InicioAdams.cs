@@ -115,8 +115,7 @@ namespace ClimatizacionIU
         //...................//
         //Manejo de botones de lado//
         private IconButton currentBtn;
-        private Panel leftBorderBtn;
-        private Form currentChildForm;
+
         private void ActivateButton(object senderBtn)
         {
             if (senderBtn != null)

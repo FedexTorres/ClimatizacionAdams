@@ -38,12 +38,16 @@
             // 
             // bBuscarPresu
             // 
-            this.bBuscarPresu.Location = new System.Drawing.Point(507, 276);
+            this.bBuscarPresu.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bBuscarPresu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bBuscarPresu.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBuscarPresu.ForeColor = System.Drawing.Color.White;
+            this.bBuscarPresu.Location = new System.Drawing.Point(649, 207);
             this.bBuscarPresu.Name = "bBuscarPresu";
-            this.bBuscarPresu.Size = new System.Drawing.Size(105, 37);
+            this.bBuscarPresu.Size = new System.Drawing.Size(105, 53);
             this.bBuscarPresu.TabIndex = 15;
             this.bBuscarPresu.Text = "Buscar Presupuestos";
-            this.bBuscarPresu.UseVisualStyleBackColor = true;
+            this.bBuscarPresu.UseVisualStyleBackColor = false;
             // 
             // dClientes
             // 
@@ -57,29 +61,37 @@
             // 
             // bAgregarCli
             // 
+            this.bAgregarCli.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bAgregarCli.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bAgregarCli.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bAgregarCli.ForeColor = System.Drawing.Color.White;
             this.bAgregarCli.Location = new System.Drawing.Point(507, 34);
             this.bAgregarCli.Name = "bAgregarCli";
-            this.bAgregarCli.Size = new System.Drawing.Size(105, 23);
+            this.bAgregarCli.Size = new System.Drawing.Size(105, 45);
             this.bAgregarCli.TabIndex = 13;
             this.bAgregarCli.Text = "Agregar Cliente";
-            this.bAgregarCli.UseVisualStyleBackColor = true;
+            this.bAgregarCli.UseVisualStyleBackColor = false;
             this.bAgregarCli.Click += new System.EventHandler(this.bAgregarCli_Click);
             // 
             // tNomClienBuscador
             // 
-            this.tNomClienBuscador.Location = new System.Drawing.Point(144, 37);
+            this.tNomClienBuscador.Location = new System.Drawing.Point(144, 47);
             this.tNomClienBuscador.Name = "tNomClienBuscador";
             this.tNomClienBuscador.Size = new System.Drawing.Size(210, 20);
             this.tNomClienBuscador.TabIndex = 12;
             // 
             // bBuscarCli
             // 
+            this.bBuscarCli.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bBuscarCli.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bBuscarCli.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bBuscarCli.ForeColor = System.Drawing.Color.White;
             this.bBuscarCli.Location = new System.Drawing.Point(395, 34);
             this.bBuscarCli.Name = "bBuscarCli";
-            this.bBuscarCli.Size = new System.Drawing.Size(75, 23);
+            this.bBuscarCli.Size = new System.Drawing.Size(75, 45);
             this.bBuscarCli.TabIndex = 11;
             this.bBuscarCli.Text = "Buscar";
-            this.bBuscarCli.UseVisualStyleBackColor = true;
+            this.bBuscarCli.UseVisualStyleBackColor = false;
             this.bBuscarCli.Click += new System.EventHandler(this.bBuscarCli_Click);
             // 
             // FormCliente

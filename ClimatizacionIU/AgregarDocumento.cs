@@ -22,7 +22,6 @@ namespace ClimatizacionIU
 
             cClientesTraidos.DataSource = documentoBLL.TraerListClientes();
             cTipoDocumento.DataSource = documentoBLL.LosTipos();
-
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -41,23 +40,18 @@ namespace ClimatizacionIU
                 string montoTotal = tMontoTotal.Text;
                 string montoMano = tMontoMano.Text;
                 string montoMaterial = tMontoMateria.Text;
-                string archivo = tNombreArchivo.Text;
 
-                bool resultado = documentoBLL.DocumentoNuevo(tipo, cliente, fecha, lugar, montoTotal, montoMano, montoMaterial, archivo);
 
-                if (resultado)
-                {
-                    MessageBox.Show("Documento Agregado exitosamente");
-                    this.Close();
-                }
+                string resultado = documentoBLL.DocumentoNuevo(tipo, cliente, fecha, lugar, montoTotal, montoMano, montoMaterial);
+
+                MessageBox.Show("Documento Agregado exitosamente. Codigo: "+resultado);
+                this.Close();
+                
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-
-
-
         }
 
         private void tMontoTotal_KeyPress(object sender, KeyPressEventArgs e)

@@ -72,57 +72,71 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(224, 144);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 13);
+            this.label4.Size = new System.Drawing.Size(118, 16);
             this.label4.TabIndex = 15;
             this.label4.Text = "Metros/Cantidad";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(53, 144);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(47, 16);
             this.label3.TabIndex = 14;
             this.label3.Text = "Precio";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(224, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 13);
+            this.label2.Size = new System.Drawing.Size(96, 16);
             this.label2.TabIndex = 13;
             this.label2.Text = "Codigo Ansal";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(53, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(90, 13);
+            this.label1.Size = new System.Drawing.Size(120, 16);
             this.label1.TabIndex = 12;
             this.label1.Text = "Nombre Producto";
             // 
             // bConfirmar
             // 
+            this.bConfirmar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bConfirmar.FlatAppearance.BorderSize = 0;
+            this.bConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bConfirmar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bConfirmar.ForeColor = System.Drawing.Color.White;
             this.bConfirmar.Location = new System.Drawing.Point(227, 237);
             this.bConfirmar.Name = "bConfirmar";
-            this.bConfirmar.Size = new System.Drawing.Size(75, 23);
+            this.bConfirmar.Size = new System.Drawing.Size(83, 33);
             this.bConfirmar.TabIndex = 11;
             this.bConfirmar.Text = "Confirmar";
-            this.bConfirmar.UseVisualStyleBackColor = true;
+            this.bConfirmar.UseVisualStyleBackColor = false;
             this.bConfirmar.Click += new System.EventHandler(this.bConfirmar_Click);
             // 
             // bCancelar
             // 
+            this.bCancelar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bCancelar.FlatAppearance.BorderSize = 0;
+            this.bCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bCancelar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bCancelar.ForeColor = System.Drawing.Color.White;
             this.bCancelar.Location = new System.Drawing.Point(81, 237);
             this.bCancelar.Name = "bCancelar";
-            this.bCancelar.Size = new System.Drawing.Size(75, 23);
+            this.bCancelar.Size = new System.Drawing.Size(83, 33);
             this.bCancelar.TabIndex = 10;
             this.bCancelar.Text = "Cancelar";
-            this.bCancelar.UseVisualStyleBackColor = true;
+            this.bCancelar.UseVisualStyleBackColor = false;
             this.bCancelar.Click += new System.EventHandler(this.bCancelar_Click);
             // 
             // flowLayoutPanel1

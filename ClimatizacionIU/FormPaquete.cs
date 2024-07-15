@@ -31,10 +31,7 @@ namespace ClimatizacionIU
 
         private void bAccion_Click(object sender, EventArgs e)
         {
-            ProductoBLL productoBLL = new ProductoBLL();
 
-            dProducto.DataSource = productoBLL.VerTodosLosProductos();
-            dProducto.Columns[2].DefaultCellStyle.Format = "c";
             Actualizar();
         }
 
@@ -66,6 +63,14 @@ namespace ClimatizacionIU
             {
                 MessageBox.Show("Error al ejecutar los comandos. " + ex.Message);
             }
+        }
+
+        private void FormPaquete_Load(object sender, EventArgs e)
+        {
+            ProductoBLL productoBLL = new ProductoBLL();
+
+            dProducto.DataSource = productoBLL.VerTodosLosProductos();
+            dProducto.Columns[2].DefaultCellStyle.Format = "c";
         }
     }
 }

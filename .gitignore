@@ -358,3 +358,5 @@ MigrationBackup/
 *.vsidx
 /ClimatizacionIU/obj
 /ClimatizacionIU/bin
+/.vs
+/ClimatizacionAdams/bin/Debug

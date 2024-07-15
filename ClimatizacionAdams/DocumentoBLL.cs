@@ -53,13 +53,8 @@ namespace ClimatizacionAdams
         }
 
 
-        public bool DocumentoNuevo(TipoDocumentoBE tipo, ClienteBE cliente, DateTime fecha, string lugar, string montoT, string montoMO, string montoMA, string nombre)
+        public string DocumentoNuevo(TipoDocumentoBE tipo, ClienteBE cliente, DateTime fecha, string lugar, string montoT, string montoMO, string montoMA)
         {
-            if (string.IsNullOrWhiteSpace(nombre))
-            {
-                throw new ArgumentException("El nombre del archivo no puede estar vacío.");
-            }
-
             DataTable dataTable = documentoDAL.ListaPorTipo(tipo.ID);
 
             int num = dataTable.Rows.Count + 1;
@@ -71,15 +66,42 @@ namespace ClimatizacionAdams
             }
             string codigo = tipo.ABR+"-"+algo;
 
+            bool resultado = documentoDAL.AgregarDocumento(codigo, tipo.ID, cliente.Id, fecha, lugar, montoT, montoMO, montoMA);
 
-            bool resultado = documentoDAL.AgregarDocumento(codigo, tipo.ID, cliente.Id, fecha, lugar, montoT, montoMO, montoMA, nombre);
-
-            return resultado;
+            if (resultado==false)
+            {
+                throw new Exception("Fallo en la base al agregar un documento");
+            }
+            return codigo;
         }
 
         public DataTable TodosLosDocumentos(string nombre)
         {
             return documentoDAL.ObtenerDocumentoPorNombre(nombre);
+        }
+
+        public string AgregarRutaBLL(Documento docu)
+        {
+            return documentoDAL.AgregarRuta(docu.Archivo, docu.Extencion, docu.Codigo);
+        }
+
+        public List<Documento> VerDocumento(string nombre)
+        {
+            List<Documento> list = new List<Documento>();
+            DataTable tabla = documentoDAL.ObtenerDocumentoParaVer(nombre);
+
+            foreach (DataRow item in tabla.Rows)
+            {
+                Documento documento = new Documento()
+                {
+                    Codigo = item["Codigo_Asignado"].ToString(),
+                    Archivo = (byte[])item["Archivo"],
+                    Extencion = item["Extencion"].ToString()
+                };
+                list.Add(documento);
+            }
+           
+            return list;
         }
     }
 }

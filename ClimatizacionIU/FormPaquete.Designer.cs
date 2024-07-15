@@ -59,7 +59,7 @@
             this.groupBox4.Controls.Add(this.lPaquete4);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(596, 252);
+            this.groupBox4.Location = new System.Drawing.Point(612, 252);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(139, 100);
             this.groupBox4.TabIndex = 29;
@@ -92,7 +92,7 @@
             this.groupBox3.Controls.Add(this.lPaquete3);
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(410, 252);
+            this.groupBox3.Location = new System.Drawing.Point(426, 252);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(139, 100);
             this.groupBox3.TabIndex = 28;
@@ -125,7 +125,7 @@
             this.groupBox2.Controls.Add(this.lPaquete2);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(224, 252);
+            this.groupBox2.Location = new System.Drawing.Point(240, 252);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(139, 100);
             this.groupBox2.TabIndex = 27;
@@ -158,7 +158,7 @@
             this.groupBox1.Controls.Add(this.lPaquete1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(38, 252);
+            this.groupBox1.Location = new System.Drawing.Point(54, 252);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(139, 100);
             this.groupBox1.TabIndex = 26;
@@ -189,7 +189,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(340, 22);
+            this.label2.Location = new System.Drawing.Point(356, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 13);
             this.label2.TabIndex = 25;
@@ -197,19 +197,24 @@
             // 
             // bEditar
             // 
-            this.bEditar.Location = new System.Drawing.Point(259, 17);
+            this.bEditar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bEditar.FlatAppearance.BorderSize = 0;
+            this.bEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bEditar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bEditar.ForeColor = System.Drawing.Color.White;
+            this.bEditar.Location = new System.Drawing.Point(274, 17);
             this.bEditar.Name = "bEditar";
             this.bEditar.Size = new System.Drawing.Size(75, 23);
             this.bEditar.TabIndex = 24;
             this.bEditar.Text = "Editar";
-            this.bEditar.UseVisualStyleBackColor = true;
+            this.bEditar.UseVisualStyleBackColor = false;
             this.bEditar.Click += new System.EventHandler(this.bEditar_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(59, 50);
+            this.label1.Location = new System.Drawing.Point(75, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(136, 16);
             this.label1.TabIndex = 23;
@@ -217,32 +222,43 @@
             // 
             // bAgregarProducto
             // 
-            this.bAgregarProducto.Location = new System.Drawing.Point(153, 17);
+            this.bAgregarProducto.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bAgregarProducto.FlatAppearance.BorderSize = 0;
+            this.bAgregarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bAgregarProducto.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bAgregarProducto.ForeColor = System.Drawing.Color.White;
+            this.bAgregarProducto.Location = new System.Drawing.Point(171, 17);
             this.bAgregarProducto.Name = "bAgregarProducto";
             this.bAgregarProducto.Size = new System.Drawing.Size(75, 23);
             this.bAgregarProducto.TabIndex = 22;
             this.bAgregarProducto.Text = "Agregar Producto";
-            this.bAgregarProducto.UseVisualStyleBackColor = true;
+            this.bAgregarProducto.UseVisualStyleBackColor = false;
             this.bAgregarProducto.Click += new System.EventHandler(this.bAgregarProducto_Click);
             // 
             // dProducto
             // 
             this.dProducto.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dProducto.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dProducto.Location = new System.Drawing.Point(52, 66);
+            this.dProducto.Location = new System.Drawing.Point(68, 66);
             this.dProducto.Name = "dProducto";
             this.dProducto.ReadOnly = true;
+            this.dProducto.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dProducto.Size = new System.Drawing.Size(663, 162);
             this.dProducto.TabIndex = 21;
             // 
             // bAccion
             // 
-            this.bAccion.Location = new System.Drawing.Point(52, 17);
+            this.bAccion.BackColor = System.Drawing.Color.RoyalBlue;
+            this.bAccion.FlatAppearance.BorderSize = 0;
+            this.bAccion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.bAccion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bAccion.ForeColor = System.Drawing.Color.White;
+            this.bAccion.Location = new System.Drawing.Point(68, 17);
             this.bAccion.Name = "bAccion";
             this.bAccion.Size = new System.Drawing.Size(75, 23);
             this.bAccion.TabIndex = 20;
             this.bAccion.Text = "Actualizar";
-            this.bAccion.UseVisualStyleBackColor = true;
+            this.bAccion.UseVisualStyleBackColor = false;
             this.bAccion.Click += new System.EventHandler(this.bAccion_Click);
             // 
             // FormPaquete
@@ -263,6 +279,7 @@
             this.Controls.Add(this.bAccion);
             this.Name = "FormPaquete";
             this.Text = "FormPaquete";
+            this.Load += new System.EventHandler(this.FormPaquete_Load);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             this.groupBox3.ResumeLayout(false);
